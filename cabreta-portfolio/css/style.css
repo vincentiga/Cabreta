@@ -2,3 +2,51 @@
     margin: 0;
     padding: 0;;
 }
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.navbar
+  
+{background-color: #F8F8F8;
+ border-color: #E7E7E7;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+  }
+  
+  li {
+    float: right; 
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav ul li
+{
+ margin:0 50px; 
+}
+  
+  li a:hover {
+    background-color: #111;
+    color: white;
+    }
+
+.Logo{
+width: 10%;
+}
+
+@media screen (max-width: 900px) 
+    
