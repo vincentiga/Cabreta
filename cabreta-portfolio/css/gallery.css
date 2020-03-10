@@ -1,0 +1,20 @@
+/* Gallery */
+
+
+/* Version desktop */
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/* Version mobile */
+@media (max-width: 961px) {
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
