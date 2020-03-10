@@ -6,8 +6,29 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 30%;
+    margin: 10px 10px 10px 10px;
+}
+
+p {
+    width: 30%;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
 
 /* Version mobile */
 @media (max-width: 961px) {
