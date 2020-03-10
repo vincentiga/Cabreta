@@ -16,13 +16,15 @@
         "image7 image7 image8"
         "image7 image7 image8"
         ;
-    grid-gap : 5px;
+    grid-gap : 20px;
     width: 90%;
     margin: auto;
 }
 
-img {
+.grid-images img {
     width: 100%;
+    border: 2px solid;
+    padding: 5px;
 }
 
 .grid-images h1 {
@@ -36,7 +38,6 @@ img {
 .grid-images div {
     grid-area: image1;    
     position: relative; 
-    background-color: rgba(0, 0, 0,0.5);
 }
 
 .grid-images p {
@@ -44,10 +45,10 @@ img {
 
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 51.5%;
     transform: translate(-50%, -50%);
     
-    width: 100%;
+    width: 85%;
     border-radius: 5px;
     padding: 10px 0;
     text-align: center;
