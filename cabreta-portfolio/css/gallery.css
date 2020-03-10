@@ -1,7 +1,7 @@
 /* Gallery */
 
 
-/* Version desktop */
+/* Desktop */
 .gallery {
     display: flex;
     flex-direction: row;
@@ -13,16 +13,30 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 30%;
 }
 
 img {
-    width: 30%;
-    margin: 10px 10px 10px 10px;
+    width: 90%;
+    height: 80%;
+    margin: 10px 0px 10px 0px;
+}
+
+a {
+    width: 90%;
+    height: 80%;
+    margin: 10px 0px 10px 0px;
+}
+
+a img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
 p {
-    width: 30%;
-    margin: 10px 10px 10px 10px;
+    width: 100%;
+    margin: 0px 10px 0px 10px;
     text-align: center;
 }
 
@@ -30,12 +44,26 @@ img:hover {
     transform: scale(1.1);
 }
 
-/* Version mobile */
+/* Mobile */
 @media (max-width: 961px) {
     .gallery {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        align-items: center;
+    }
+
+    div {
+        width: 90%;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    p {
+        width: 80%;
+        margin: 0px 10px 20px 10px;
     }
 
 }
