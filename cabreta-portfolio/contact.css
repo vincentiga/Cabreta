@@ -1,0 +1,53 @@
+body {
+    margin:0;
+}
+
+
+.hr-line {
+    width: 100%;
+}
+
+.intro {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.form-daddy {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #eeeeee;
+}
+
+.form-content {
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+
+
+/*
+input[type=text], textarea {
+    width: 50%;
+    margin-bottom: 10px;
+    font-size: .9em;
+    font-weight: 300;
+    padding: 10px 10px;
+    border: bottom;
+    color: #555555;
+    font-weight: 300;
+    align-items: center;
+  }
+
+  */
+
+a:hover {
+    opacity: 50%;
+}
