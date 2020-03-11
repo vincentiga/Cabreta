@@ -2,6 +2,15 @@
 
 
 /* Desktop */
+body {
+    /*cursor: cell;*/
+    /*cursor: url(goatlogo4_mini.jpg), auto;*/
+}
+
+h1 {
+    text-align: center;
+}
+
 .gallery {
     display: flex;
     flex-direction: row;
@@ -14,17 +23,18 @@ div {
     flex-direction: column;
     align-items: center;
     width: 30%;
+    position: relative;
 }
 
 img {
-    width: 90%;
-    height: 80%;
+    width: 95%;
+    height: 100%;
     margin: 10px 0px 10px 0px;
 }
 
 a {
-    width: 90%;
-    height: 80%;
+    width: 95%;
+    height: 100%;
     margin: 10px 0px 10px 0px;
 }
 
@@ -35,13 +45,21 @@ a img {
 }
 
 p {
-    width: 100%;
-    margin: 0px 10px 0px 10px;
+    width: 80%;
+    margin: 4px 10px 0px 10px;
+    padding: 5px 0px 5px 0px;
     text-align: center;
+    position: absolute;
+    top: 50%;
+    background-color: black;
+    color: white;
 }
 
 img:hover {
+    /*cursor: cell;*/
+    cursor: url(goatlogo4_mini.jpg), auto;
     transform: scale(1.1);
+    
 }
 
 /* Mobile */
@@ -63,7 +81,7 @@ img:hover {
 
     p {
         width: 80%;
-        margin: 0px 10px 20px 10px;
+        margin: 6px 10px 20px 10px;
     }
 
 }
