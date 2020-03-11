@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+.grid-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 2fr 4fr 4fr 4fr 3fr;
+    grid-template-areas: 
+        "image1 title image3"
+        "image1 image4 image3"
+        "image1 image4 image3"
+        "image2 image4 image5"
+        "image2 image6 image5"
+        "image7 image7 image8"
+        "image7 image7 image8"
+        ;
+    grid-gap : 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.grid-images img {
+    width: 100%;
+    border: 2px solid;
+    padding: 5px;
+}
+
+.grid-images h1 {
+    grid-area: title;
+    margin: auto;
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+.grid-images div {   
+    position: relative; 
+}
+
+.grid-images p {
+    display: none;
+
+    position: absolute;
+    top: 50%;
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+    
+    width: 85%;
+    border-radius: 5px;
+    padding: 10px 0;
+    text-align: center;
+
+    font-family: 'Caveat Brush', cursive;
+    color: #fff;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0,0.5);
+}
+
+
+.grid-images div:hover img {
+    opacity: 0.5;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.grid-images div:hover p {
+    display: inline;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.grid-images div:nth-of-type(1) img { 
+    height: 100%;  
+}
+
+.grid-images div:nth-of-type(1) {
+    grid-area: image1;
+}
+
+.grid-images div:nth-of-type(2) {
+    grid-area: image2;
+    height: 100%;
+}
+
+.grid-images div:nth-of-type(3) {
+    grid-area: image3;
+}
+.grid-images img {
+    height: 100%;
+}
+
+
+.grid-images div:nth-of-type(4) {
+    grid-area: image4;
+    height: 100%;
+}
+
+.grid-images div:nth-of-type(5) {
+    grid-area: image5;
+}
+.grid-images div:nth-of-type(6) {
+    grid-area: image6;
+    height: 100%;
+}
+
+.grid-images div:nth-of-type(7) {
+    grid-area: image7;
+    height: 100%;
+}
+
+.grid-images div:nth-of-type(8) {
+    grid-area: image8;
+}
+
+@media screen and (max-width: 733px){
+    .grid-images{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(10, auto);
+        grid-template-areas: 
+        "image1 title"
+        "image1 image4"
+        "image1 image4"
+        "image2 image4"
+        "image2 image6"
+        "image3 image5"
+        "image3 image5"
+        "image3 image5"
+        "image7 image7"
+        ;
+    }
+
+    .grid-images div:nth-of-type(8) {
+      display: none;
+    }
+    
+}
