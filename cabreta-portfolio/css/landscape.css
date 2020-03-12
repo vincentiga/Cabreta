@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 
 .grid-images {
     display: grid;
@@ -10,30 +11,29 @@
     grid-template-areas: 
         "image1 title image3"
         "image1 image4 image3"
-        "image1 image4 image3"
-        "image2 image4 image5"
+        "image2 image4 image9"
         "image2 image6 image5"
-        "image7 image7 image8"
-        "image7 image7 image8"
+        "image10 image8 image5"
+        "image7 image7 image5"
+        "image7 image7 ."
         ;
-    grid-gap : 20px;
+    grid-gap : 10px;
     width: 90%;
     margin: auto;
 }
 
 .grid-images img {
     width: 100%;
-    border: 2px solid;
-    padding: 5px;
 }
 
-.grid-images h1 {
+.grid-images div h1 {
     grid-area: title;
     margin: auto;
     /* font-family: 'Cormorant Garamond', serif; */
-    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Orbitron', sans-serif;
     font-size: 2.5em;
-    letter-spacing: 1px;
+    text-align: center;
 }
 
 .grid-images div {   
@@ -53,7 +53,7 @@
     padding: 10px 0;
     text-align: center;
 
-    font-family: 'Caveat Brush', cursive;
+    font-family: 'Orbitron', sans-serif;
     color: #fff;
     font-size: 1.7em;
     text-transform: uppercase;
@@ -72,7 +72,14 @@
     transition-duration: 1s;
 }
 .grid-images div:nth-of-type(1) img { 
-    height: 100%;  
+    height: 100%;
+}
+.grid-images div:nth-of-type(3) img { 
+    height: 100%;
+}
+
+.grid-images div:nth-of-type(9) img { 
+    height: 100%;
 }
 
 .grid-images div:nth-of-type(1) {
@@ -87,10 +94,6 @@
 .grid-images div:nth-of-type(3) {
     grid-area: image3;
 }
-.grid-images img {
-    height: 100%;
-}
-
 
 .grid-images div:nth-of-type(4) {
     grid-area: image4;
@@ -114,25 +117,71 @@
     grid-area: image8;
 }
 
-@media screen and (max-width: 733px){
+.grid-images div:nth-of-type(9) {
+    grid-area: image9;
+}
+.grid-images div:nth-of-type(10) {
+    grid-area: image10;
+}
+
+
+
+@media screen and (max-width: 800px){
     .grid-images{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(10, auto);
         grid-template-areas: 
         "image1 title"
         "image1 image4"
-        "image1 image4"
         "image2 image4"
-        "image2 image6"
+        "image2 image4"
         "image3 image5"
-        "image3 image5"
-        "image3 image5"
+        "image9 image5"
+        "image9 image6"
+        "image9 image6"
         "image7 image7"
         ;
     }
 
+    .grid-images div h1{
+        text-align: left;
+    }
+
+    .grid-images div:nth-of-type(4) img{
+        height: 100%;
+    }
+
     .grid-images div:nth-of-type(8) {
       display: none;
+    }
+    .grid-images div:nth-of-type(9) {
+        display: none;
+      }
+    .grid-images div:nth-of-type(10) {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 525px){
+    .grid-images{
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        "image1 title"
+        "image1 image4"
+        "image2 image4"
+        "image2 image4"
+        "image3 image5"
+        "image6 image5"
+        "image7 image7"
+        ;
+    }
+    .grid-images p{
+        font-size: 0.8em;
+    }
+
+    .grid-images div h1{
+        font-size: 1.7rem;
     }
     
 }
