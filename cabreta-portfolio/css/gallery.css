@@ -20,6 +20,7 @@ h1 {
 }
 
 .gallery {
+    padding-top: 67px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -85,6 +86,7 @@ h1 {
 /* Mobile */
 @media (max-width: 961px) {
     .gallery {
+        margin-top: -107px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
