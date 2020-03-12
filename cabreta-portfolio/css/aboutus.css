@@ -1,7 +1,15 @@
 
 /*DESKTOP*/
 
-
+nav a[href="about.html"]{
+    background-color: #000;
+    color: #fff;
+}
+nav a[href="index.html"]{
+    background-color: #fff;
+    color: #000;
+  }
+  
 .container{
     display: flex;
     justify-content: space-around;
@@ -13,12 +21,14 @@ h2{
 }
 .title1{
     padding-bottom: 80px;
+    font-family: 'Orbitron', sans-serif;
 }
 .para1{
     padding-bottom: 30px;
 }
 .title2{
     padding-top: 100px;
+    font-family: 'Orbitron', sans-serif;
 }
 .para2{
     padding-top: 30px;

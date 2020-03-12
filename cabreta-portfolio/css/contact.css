@@ -4,10 +4,14 @@ body {
     min-width: 316px;
 }
 
-
-
-
-
+nav a[href="contact.html"]{
+    background-color: #000;
+    color: #fff;
+}
+nav a[href="index.html"]{
+    background-color: #fff;
+    color: #000;
+  }
 
 .formulaire {
     display: flex;
@@ -149,6 +153,7 @@ input {
   outline: 0;
 }
 
+<<<<<<< HEAD
 @media (max-width: 1000px) {
     .bg-frame {
         width: 75%;
@@ -173,3 +178,14 @@ input {
 
     }
 }
+=======
+section img {
+    box-shadow:4px 4px 6px #888;
+    width: 60%;
+}
+  
+section {
+    margin-top: 20px;
+    text-align: center;
+}
+>>>>>>> 82ead11c00721854b3de680c83cce3fbf9a30496
