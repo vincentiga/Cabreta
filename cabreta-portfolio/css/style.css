@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .container{
   width: 90%;
   margin: auto;
@@ -38,7 +37,7 @@ nav {
   text-decoration: none;
 }
 
-li a:hover {
+nav li a:hover {
   background-color: #111;
   color: white;
   }
@@ -56,15 +55,71 @@ header {
   display: flex;
   justify-content: center;
 }
-.top-menu
-{}
 
 @media screen and (max-width: 550px) {
   
-.Logo{
-  width: 30%;
-  justify-content: center;
+  .Logo{
+    width: 30%;
+    justify-content: center;
+  }
 }
+
+/* CAROUSEL */
+
+
+
+div#slider { 
+    width: 100%; 
+    max-width: 1000px;
+    margin: auto;
+  } 
+
+div#slider figure {
+    position: relative; 
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+  }
+
+div#slider figure img { 
+    width: 20%;
+    height: 500px;
+    min-height: 50%; 
+    float: left; 
+  }
+
+div#slider { 
+    width: 80%; 
+    max-width: 1000px;
+    overflow: hidden 
+  }
+#slider{
+}
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 18s slidy infinite;
+  }
 
 /*Footer*/
 footer a
@@ -115,7 +170,7 @@ footer a:hover
 }
 
 
-img
+footer img
 {
     filter: grayscale(100%); /* English : Replace with a property that makes the image look black & white. */
     -webkit-filter: grayscale(100%); /* Français : Remplace par une propriété faisant paraître l'image en noir et blanc. */
@@ -124,7 +179,7 @@ img
     -o-filter: grayscale(100%);
 }
 
-img:hover
+footer img:hover
 {
     filter: grayscale(0%); /* English : Replace with a property that makes the image look black & white. */
     -webkit-filter: grayscale(0%); /* Français : Remplace par une propriété faisant paraître l'image en noir et blanc. */
@@ -183,4 +238,9 @@ img:hover
 {
   text-align: center;
   margin-top: 130px;
+}
+
+nav a[href="index.html"]{
+  background-color: #000;
+  color: #fff;
 }
