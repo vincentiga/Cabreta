@@ -1,3 +1,76 @@
-h2{
-    color: red;
+
+/*DESKTOP*/
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    flex-wrap: wrap;
+}
+
+.bloc1{
+    width: 40%;
+    height: 40%;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+.img1{
+    width: 500px;
+    padding-left: 50px;  
+}
+
+.img2{
+    width: 700px;
+    padding-top: 20px;
+    
+}
+.bloc2{
+    width: 40%;
+    padding: 40px 20px 20px 20px;
+}
+p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+
+/* MOBILE */
+
+
+@media (max-width : 730px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .bloc1{
+        order: 1;
+        width: 90%;
+    }
+    .img1{
+        order: 0;
+        width: 90%;
+        padding-left: 0;
+    }
+
+    .bloc2{
+        order: 1;
+        width: 90%;
+    }
+    .img2{
+        order: 1;
+        width: 90%;
+    }
+    p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+
 }
