@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/contact.css">
     
     <title>Cabretta Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Orbitron&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -30,15 +31,28 @@
     </header>
     <!-- FORM -->
     <hr class="hr-line">
-    <p class="intro">For further information<br>please contact us</p>
+    
 
     <div class="form-daddy">
+        
         <div class=" bg-frame">
+        <div class="p-frame"><p class="intro">For further information</p></div><br>
+
+        <div class="span-frame"><p class="span-contact">Contact us</p></div>
+
             <form class="formulaire" method="post" action="#">
+                <label class="form-label" for="fullname"></label>
                 <input class="form-content" type="text" value="" placeholder="Full name" name="fullname" tabindex="1" />
+                
+                <label class="form-label" for="email"></label>
                 <input class="form-content" type="text" value="" placeholder="E mail" name="email" tabindex="2" />
+                
+                <label class="form-label" for="Topic"></label>
+                <input class="form-content" type="text" value="" placeholder="Topic" name="fullname" tabindex="1" />
+
+                <label class="form-label" for="message"></label>
                 <textarea class="form-content" placeholder="Message" name="Message" tabindex="5" rows="10"></textarea>
-                <input class="button" type="button" value="Send Mail" tabindex="6" />
+                <input class="button" type="button" value="Send" tabindex="6" />
             </form>
         </div>
     </div>
