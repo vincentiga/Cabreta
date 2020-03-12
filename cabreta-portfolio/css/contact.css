@@ -149,3 +149,13 @@ textarea {
 input {
   outline: 0;
 }
+
+section img {
+    box-shadow:4px 4px 6px #888;
+    width: 60%;
+}
+  
+section {
+    margin-top: 20px;
+    text-align: center;
+}
