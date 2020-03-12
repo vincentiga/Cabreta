@@ -2,9 +2,8 @@
 
 
 /* Desktop */
-/*body {
-    cursor: url(goatlogo4_mini.jpg), auto;
-}*/
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 
 h1 {
     text-align: center;
@@ -58,6 +57,7 @@ h1 {
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     border-radius: 5px;
+    font-family: "Orbitron", cursive;
 }
 
 .gallery img:hover {
@@ -100,8 +100,9 @@ h1 {
     }
 
     .gallery p {
-        width: 80%;
+        width: 70%;
         margin: 6px 10px 20px 10px;
+
     }
 
 }

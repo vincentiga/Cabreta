@@ -1,5 +1,8 @@
 /* DESKTOP*/
 
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Orbitron&display=swap');
+
 .citations {
     display: flex;
     flex-direction: column;
@@ -12,8 +15,8 @@ blockquote {
     margin: 0;
     width: 70%;
     margin: 20px 0 20px 0;  
-    background: #eee;
-    border-left: 6px solid black;
+    background: #e6e6e6;
+    border-left: 6px solid 	#666666;
 }
 
 .citation2 {
@@ -21,6 +24,8 @@ blockquote {
 }
 
 blockquote p {
+    font-family: "Dosis", cursive;
+    font-size: 18px;
     padding: 20px 10px 0 50px;
     /*border-radius: 5px;*/
     margin-bottom: 10px;
@@ -31,13 +36,15 @@ blockquote p {
 
 blockquote footer {
     padding: 0 10px 15px 50px;
+    font-size: 18px;
+    font-family: "Dosis", cursive;
 }
 
 blockquote p::before {
     /*content: '\201C';*/
     font-family:Arial;
     content: "\201C";
-    color:black;
+    color: #666666;
     font-size:4em;
     position: absolute;
     left: 10px;
