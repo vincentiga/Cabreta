@@ -1,3 +1,7 @@
+body {
+    min-width: 316px;
+}
+
 nav a[href="contact.html"]{
     background-color: #000;
     color: #fff;
@@ -36,6 +40,7 @@ border-radius: 2%;
         box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
     background-color: rgba(255, 255, 255, 255);;
     width: 50%;
+    
 }
 
 
@@ -97,7 +102,7 @@ textarea::placeholder{
 .span-contact {
     font-family: 'Dancing Script', cursive;
     letter-spacing: 4px;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     margin: 5px;
     width: 100%;
@@ -139,12 +144,37 @@ textarea {
     resize: none;
     border-style: none none solid none;
     outline: 0;
+    
 }
 
 input {
   outline: 0;
 }
 
+@media (max-width: 1000px) {
+    .bg-frame {
+        width: 75%;
+    }
+
+}
+
+@media (max-width: 315px){
+    .span-contact {
+        font-size: 40px;
+    }
+    .form-content {
+        margin-top: -30px;
+    }
+}
+
+@media (max-width: 516px){
+    .span-contact {line-height: 30px;
+                    padding: 20px;
+    }
+    .formulaire { padding-top: 20px;
+
+    }
+}
 section img {
     box-shadow:4px 4px 6px #888;
     width: 60%;
