@@ -2,13 +2,13 @@
 
 
 /* Desktop */
-body {
-    /*cursor: cell;*/
-    /*cursor: url(goatlogo4_mini.jpg), auto;*/
-}
+/*body {
+    cursor: url(goatlogo4_mini.jpg), auto;
+}*/
 
 h1 {
     text-align: center;
+    display: none;
 }
 
 .gallery {
@@ -18,7 +18,7 @@ h1 {
     justify-content: center;
 }
 
-div {
+.gallery div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,25 +26,25 @@ div {
     position: relative;
 }
 
-img {
+.gallery img {
     width: 95%;
     height: 100%;
     margin: 10px 0px 10px 0px;
 }
 
-a {
+.gallery a {
     width: 95%;
     height: 100%;
     margin: 10px 0px 10px 0px;
 }
 
-a img {
+.gallery a img {
     width: 100%;
     height: 100%;
     margin: 0;
 }
 
-p {
+.gallery p {
     display: none;
     width: 85%;
     margin: 4px 10px 0px 10px;
@@ -61,8 +61,7 @@ p {
 }
 
 .gallery img:hover {
-    /*cursor: cell;*/
-    /*cursor: url(goatlogo4_mini.jpg), auto;*/
+    cursor: url(../images/Gallery/goatlogo4_mini.jpg), auto;
     transform: scale(1.1);
     opacity: 0.5;
     transition-duration: 1s;
@@ -83,15 +82,24 @@ p {
         align-items: center;
     }
 
-    div {
+    .gallery div {
         width: 90%;
     }
 
-    img {
+    .gallery img {
         width: 80%;
     }
 
-    p {
+    .gallery a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .gallery a img {
+        width: 84%;
+    }
+
+    .gallery p {
         width: 80%;
         margin: 6px 10px 20px 10px;
     }
