@@ -45,19 +45,24 @@ li a:hover {
 
 .Logo{
 width: 10%;
+-moz-box-align: center;
 }
-.bot-menu
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.logoOne {
+  display: flex;
+  justify-content: center;
+}
+.top-menu
+{}
 
 @media screen and (max-width: 550px) {
   
-  .top-menu
-{
-  display: none;
-
-}
-  
 .Logo{
-  width: 10%;
+  width: 30%;
   justify-content: center;
 }
 
