@@ -76,14 +76,24 @@ footer a:hover
   text-decoration: none;
 }
 
+.footer_one
+{
+  display: flex;
+  display-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 120px;
+  font-size: 0.8em;
+}
+
 .footer_box_two
 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 40px;
 }
-
 .facebook_logo
 {
   margin-right: 5px;
@@ -93,18 +103,15 @@ footer a:hover
 {
   margin-right: 5px;
 }
-
 .instagram_logo
 {
   margin-right: 5px;
 }
-
 .pinterest_logo
 {
   margin-right: 5px;
 }
-
-.linkedin_logo
+.linkdin_logo
 {
   margin-right: 5px;
 }
@@ -112,8 +119,8 @@ footer a:hover
 
 img
 {
-    filter: grayscale(100%); /* English : Replace with a property that makes the image look black & white. */
-    -webkit-filter: grayscale(100%); /* Français : Remplace par une propriété faisant paraître l'image en noir et blanc. */
+    filter: grayscale(100%); 
+    -webkit-filter: grayscale(100%); 
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
@@ -121,11 +128,43 @@ img
 
 img:hover
 {
-    filter: grayscale(0%); /* English : Replace with a property that makes the image look black & white. */
-    -webkit-filter: grayscale(0%); /* Français : Remplace par une propriété faisant paraître l'image en noir et blanc. */
+    filter: grayscale(0%); 
+    -webkit-filter: grayscale(0%); 
     -moz-filter: grayscale(0%);
     -ms-filter: grayscale(0%);
     -o-filter: grayscale(0%);
+}
+
+.website_logo
+{
+  text-align: center;
+}
+
+.about_us_box
+{
+  width: 150px;
+  height: 100px;
+  text-align: center;
+}
+
+.meet_us_box
+{
+  width: 150px;
+  height: 100px;
+  text-align: center;
+}
+
+p[class="thin_line"]
+{
+  line-height: 5px;
+}
+
+.slogan
+{
+  text-align: center;
+  margin-top: 0px;
+  font-size: 1.3em;
+
 }
 
 .copyright_background
@@ -133,49 +172,5 @@ img:hover
   background-color: black;
   color: white;
   font-size: 0.8em;
-  text-align: center;
-  margin-top: 60px; 
-}
-
-
-
-.footer_bis
-{
-  display: flex;
-  display-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 200px;
-}
-
-.website_title
-{
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  padding-top: 100px;
-  padding-left: 0px;
-}
-
-.about_us_box
-{
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  padding-bottom: 0px;
-}
-
-.meet_us_box
-{
-  width: 100px;
-  height: 100px;
-  text-align: center;
-}
-
-.slogan
-{
-  text-align: center;
-  margin-top: 130px;
+  text-align: center; 
 }
