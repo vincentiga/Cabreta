@@ -5,6 +5,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 
+nav a[href="gallery.html"]{
+    background-color: #000;
+    color: #fff;
+}
+nav a[href="index.html"]{
+    background-color: #fff;
+    color: #000;
+  }
+
 h1 {
     text-align: center;
     display: none;

@@ -3,10 +3,14 @@ body {
     padding: 0;
 }
 
-
-
-
-
+nav a[href="contact.html"]{
+    background-color: #000;
+    color: #fff;
+}
+nav a[href="index.html"]{
+    background-color: #fff;
+    color: #000;
+  }
 
 .formulaire {
     display: flex;
