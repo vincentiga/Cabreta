@@ -1,12 +1,35 @@
 
 /*DESKTOP*/
 
-
+nav a[href="about.html"]{
+    background-color: #000;
+    color: #fff;
+}
+nav a[href="index.html"]{
+    background-color: #fff;
+    color: #000;
+  }
+  
 .container{
     display: flex;
     justify-content: space-around;
     align-items: center;    
     flex-wrap: wrap;
+}
+h2{
+    font-size: 50px;
+}
+.title1{
+    padding-bottom: 80px;
+}
+.para1{
+    padding-bottom: 30px;
+}
+.title2{
+    padding-top: 100px;
+}
+.para2{
+    padding-top: 30px;
 }
 
 .bloc1{
@@ -18,17 +41,20 @@
 
 .img1{
     width: 500px;
-    padding-left: 50px;  
+    
+    box-shadow:4px 4px 6px #888;  
 }
 
 .img2{
     width: 700px;
-    padding-top: 20px;
+    
+    box-shadow:4px 4px 6px #888;
     
 }
 .bloc2{
     width: 40%;
     padding: 40px 20px 20px 20px;
+    
 }
 p{
     font-family: 'Dancing Script', cursive;
@@ -67,10 +93,19 @@ p{
         width: 90%;
     }
     p{
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
     }
-
+    h2{
+        
+        text-align: center;
+    }
+    .title1{
+        padding-bottom: 20px;
+    }
+    .title2{
+        padding-top: 0;
+    }
 
 
 }

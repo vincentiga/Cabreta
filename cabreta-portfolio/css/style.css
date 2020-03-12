@@ -4,10 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 
 .container {
     width: 90%;
     margin: auto;
+=======
+.container{
+  width: 90%;
+  margin: auto;
+>>>>>>> 1446dd3c22f9bb7757c8022b17e0beea596734c2
 }
 
 nav {
@@ -42,10 +48,17 @@ nav {
     font-size: 25px;
 }
 
+<<<<<<< HEAD
 li a:hover {
     background-color: #111;
     color: white;
 }
+=======
+nav li a:hover {
+  background-color: #111;
+  color: white;
+  }
+>>>>>>> 1446dd3c22f9bb7757c8022b17e0beea596734c2
 
 .Logo {
     width: 20%;
@@ -64,6 +77,7 @@ header {
 }
 
 @media screen and (max-width: 550px) {
+<<<<<<< HEAD
     .Logo {
         width: 30%;
         justify-content: center;
@@ -124,32 +138,140 @@ footer a:hover {
 
 .pinterest_logo {
     margin-right: 5px;
+=======
+  
+  .Logo{
+    width: 30%;
+    justify-content: center;
+  }
+}
+
+/* CAROUSEL */
+
+
+
+div#slider { 
+    width: 100%; 
+    max-width: 1000px;
+    margin: auto;
+  } 
+
+div#slider figure {
+    position: relative; 
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+  }
+
+div#slider figure img { 
+    width: 20%;
+    height: 500px;
+    min-height: 50%; 
+    float: left; 
+  }
+
+div#slider { 
+    width: 80%; 
+    max-width: 1000px;
+    overflow: hidden 
+  }
+#slider{
+}
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 18s slidy infinite;
+  }
+
+/*Footer*/
+.footer_box_two
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.facebook_logo
+{
+  margin-right: 70px;
+}
+
+.twitter_logo
+{
+  margin-right: 70px;
+}
+.instagram_logo
+{
+  margin-right: 70px;
+}
+.pinterest_logo
+{
+  margin-right: 70px;
+}
+.linkdin_logo
+{
+  margin-right: 70px;
+>>>>>>> 1446dd3c22f9bb7757c8022b17e0beea596734c2
 }
 
 .linkedin_logo {
     margin-right: 5px;
 }
 
+<<<<<<< HEAD
 img {
     filter: grayscale(100%);
     /* English : Replace with a property that makes the image look black & white. */
     -webkit-filter: grayscale(100%);
     /* Français : Remplace par une propriété faisant paraître l'image en noir et blanc. */
+=======
+footer img
+{
+    filter: grayscale(100%); 
+    -webkit-filter: grayscale(100%); 
+>>>>>>> 1446dd3c22f9bb7757c8022b17e0beea596734c2
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
 }
 
+<<<<<<< HEAD
 img:hover {
     filter: grayscale(0%);
     /* English : Replace with a property that makes the image look black & white. */
     -webkit-filter: grayscale(0%);
     /* Français : Remplace par une propriété faisant paraître l'image en noir et blanc. */
+=======
+footer img:hover
+{
+    filter: grayscale(0%); 
+    -webkit-filter: grayscale(0%); 
+>>>>>>> 1446dd3c22f9bb7757c8022b17e0beea596734c2
     -moz-filter: grayscale(0%);
     -ms-filter: grayscale(0%);
     -o-filter: grayscale(0%);
 }
 
+<<<<<<< HEAD
 .copyright_background {
     background-color: black;
     color: white;
@@ -193,3 +315,51 @@ img:hover {
     text-align: center;
     margin-top: 130px;
 }
+=======
+.website_logo
+{
+  text-align: center;
+}
+
+.solgan
+{
+  text-align: center;
+  margin-top: 0px;
+  font-size: 1em;
+}
+.slogan_1 a
+{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.solgan_1 a:hover
+{
+  text-align: center;
+  color: black;
+  opacity: 0.2;
+  transition: 0.8s;
+  text-decoration: none;
+}
+
+
+.copyright_background
+{
+  background-color: black;
+  color: white;
+  font-size: 0.8em;
+  text-align: center; 
+}
+
+.slogan
+{
+  text-align: center;
+  margin-top: 130px;
+}
+
+nav a[href="index.html"]{
+  background-color: #000;
+  color: #fff;
+}
+>>>>>>> 1446dd3c22f9bb7757c8022b17e0beea596734c2
