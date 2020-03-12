@@ -62,35 +62,7 @@ width: 10%;
 }
 
 /*Footer*/
-footer a
-{
-  color: black;
-  text-decoration: none;
-}
-
-footer a:hover
-{
-  color: black;
-  opacity: 0.2;
-  transition: 0.8s;
-
-  text-decoration: none;
-}
-
-.footer_one
-{
-  display: flex;
-  display-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100%;
-  height: 120px;
-  font-size: 0.8em;
-}
-
 .footer_box_two
-
 {
   display: flex;
   flex-wrap: wrap;
@@ -98,24 +70,24 @@ footer a:hover
 }
 .facebook_logo
 {
-  margin-right: 5px;
+
 }
 
 .twitter_logo
 {
-  margin-right: 5px;
+  
 }
 .instagram_logo
 {
-  margin-right: 5px;
+  
 }
 .pinterest_logo
 {
-  margin-right: 5px;
+  
 }
 .linkdin_logo
 {
-  margin-right: 5px;
+
 }
 
 
@@ -142,32 +114,28 @@ img:hover
   text-align: center;
 }
 
-.about_us_box
-{
-  width: 150px;
-  height: 100px;
-  text-align: center;
-}
-
-.meet_us_box
-{
-  width: 150px;
-  height: 100px;
-  text-align: center;
-}
-
-p[class="thin_line"]
-{
-  line-height: 5px;
-}
-
-.slogan
+.solgan
 {
   text-align: center;
   margin-top: 0px;
-  font-size: 1.3em;
-
+  font-size: 1em;
 }
+.slogan_1 a
+{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.solgan_1 a:hover
+{
+  text-align: center;
+  color: black;
+  opacity: 0.2;
+  transition: 0.8s;
+  text-decoration: none;
+}
+
 
 .copyright_background
 {
@@ -176,3 +144,4 @@ p[class="thin_line"]
   font-size: 0.8em;
   text-align: center; 
 }
+
