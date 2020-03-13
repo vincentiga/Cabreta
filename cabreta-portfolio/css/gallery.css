@@ -71,7 +71,7 @@ h1 {
 }
 
 .gallery img:hover {
-    cursor: url(../images/Gallery/goatlogo4_mini.jpg), auto;
+    cursor: url(../images/Gallery/goatlogo4_mini-carre.jpg), auto;
     transform: scale(1.1);
     opacity: 0.5;
     transition-duration: 1s;
@@ -81,6 +81,10 @@ h1 {
     display: inline;
     cursor: pointer;
     transition-duration: 1s;
+}
+
+.gallery div p:hover {
+    cursor: url(../images/Gallery/goatlogo4_mini-carre.jpg), auto;
 }
 
 /* Mobile */

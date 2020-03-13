@@ -59,12 +59,13 @@ div#slider figure {
     animation: 18s slidy infinite;
   }
 
+/* CITATIONS */
 
 .citations {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 90%;
+    width: 77%;
     margin: auto;
 }
 
@@ -98,7 +99,6 @@ blockquote footer {
 }
 
 blockquote p::before {
-    /*content: '\201C';*/
     font-family:Arial;
     content: "\201C";
     color: #666666;

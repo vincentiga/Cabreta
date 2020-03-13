@@ -27,13 +27,15 @@ nav a[href="index.html"]{
 }
 .para1{
     padding-bottom: 30px;
+    text-align: justify;
 }
 .title2{
-    padding-top: 100px;
+    padding-top: 10px;
     font-family: 'Orbitron', sans-serif;
 }
 .para2{
     padding-top: 30px;
+    text-align: justify;
 }
 
 .bloc1{
@@ -45,13 +47,13 @@ nav a[href="index.html"]{
 
 .img1{
     width: 500px;
-    
+    margin-bottom: 50px;
     box-shadow:4px 4px 6px #888;  
 }
 
 .img2{
     width: 700px;
-    
+    margin-top: 50px;
     box-shadow:4px 4px 6px #888;
     
 }
@@ -63,7 +65,7 @@ nav a[href="index.html"]{
 .about p{
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
-    line-height: 50px;
+    line-height: 30px;
 }
 
 
