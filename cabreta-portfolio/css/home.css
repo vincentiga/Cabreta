@@ -115,7 +115,7 @@ blockquote p::after {
 
 /* MOBILE */
 
-@media (max-width: 961px) {
+@media screen and (max-width: 961px) {
     .citations {
         align-items: center;
         width: 100%;
@@ -129,3 +129,8 @@ blockquote p::after {
         width: 80%;
     }
 
+    section:nth-of-type(1) {
+        margin-top: 50px;
+    }
+
+}
