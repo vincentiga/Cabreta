@@ -25,7 +25,7 @@ nav a[href="index.html"]{
     display: flex;
     width: 100%;
     justify-content: center;
-    background-image: url(https://images.unsplash.com/photo-1583862595688-e8195e4f1446?ixlib=rb-1.2.1&auto=format&fit=crop&w=582&q=80);
+    /* background-image: url(https://images.unsplash.com/photo-1583862595688-e8195e4f1446?ixlib=rb-1.2.1&auto=format&fit=crop&w=582&q=80); */
     background-size: 110%;
     margin-bottom: 50px;
     padding-top: 100px;
@@ -60,20 +60,22 @@ textarea::placeholder{
 }
 
 .button {
-    color: #fff !important;
+    color: white !important;
     text-transform: uppercase;
     text-decoration: none;
-    background: #84B1B8;
+    background:#BEBEBE;
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
     border: none;
     transition: all 0.4s ease 0s;
     margin-top: 30px;
+
     }
 
     .button:hover {
-        background: #071f35;
+        color: white;
+        background: black;
         letter-spacing: 3px;
         -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
         -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -107,7 +109,7 @@ textarea::placeholder{
     font-size: 60px;
     text-align: center;
     margin: 5px;
-    width: 100%;
+    
 }
 
 .form-content::placeholder {
@@ -153,24 +155,26 @@ input {
   outline: 0;
 }
 
-<<<<<<< HEAD
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     .bg-frame {
         width: 75%;
     }
 
 }
 
-@media (max-width: 315px){
+@media screen and (max-width: 360px){
     .span-contact {
-        font-size: 40px;
+        font-size: 30px;
+        text-align: center;
     }
-    .form-content {
-        margin-top: -30px;
+    
+    .intro {
+        display: none;
     }
+   
 }
 
-@media (max-width: 516px){
+@media screen and (max-width: 516px){
     .span-contact {line-height: 30px;
                     padding: 20px;
     }
@@ -178,7 +182,6 @@ input {
 
     }
 }
-=======
 section img {
     box-shadow:4px 4px 6px #888;
     width: 60%;
@@ -188,4 +191,15 @@ section {
     margin-top: 20px;
     text-align: center;
 }
->>>>>>> 82ead11c00721854b3de680c83cce3fbf9a30496
+
+textarea {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+
+input {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
