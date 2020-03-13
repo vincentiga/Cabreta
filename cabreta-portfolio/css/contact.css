@@ -1,6 +1,4 @@
 body {
-    margin:0;
-    padding: 0;
     min-width: 316px;
 }
 
@@ -73,6 +71,7 @@ textarea::placeholder{
 
     }
 
+<<<<<<< HEAD
     .button:hover {
         color: white;
         background: black;
@@ -83,6 +82,17 @@ textarea::placeholder{
         transition: all 0.4s ease 0s;
         transform: scale(1.2);
         }
+=======
+.button:hover {
+    background: #071f35;
+    letter-spacing: 3px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    transform: scale(1.2);
+    }
+>>>>>>> c21085284695c3052036504e7ea7fc79d7865a98
 
 .span-frame {
     display: flex;
@@ -155,7 +165,11 @@ input {
   outline: 0;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 1000px) {
+=======
+@media (max-width: 1000px) {
+>>>>>>> c21085284695c3052036504e7ea7fc79d7865a98
     .bg-frame {
         width: 75%;
     }
@@ -191,6 +205,7 @@ section {
     margin-top: 20px;
     text-align: center;
 }
+<<<<<<< HEAD
 
 textarea {
     font-family: 'Orbitron', sans-serif;
@@ -203,3 +218,5 @@ input {
     letter-spacing: 2px;
     font-size: 10px;
 }
+=======
+>>>>>>> c21085284695c3052036504e7ea7fc79d7865a98

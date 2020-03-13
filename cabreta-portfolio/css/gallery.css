@@ -20,6 +20,7 @@ h1 {
 }
 
 .gallery {
+    padding-top: 67px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -70,7 +71,7 @@ h1 {
 }
 
 .gallery img:hover {
-    cursor: url(../images/Gallery/goatlogo4_mini.jpg), auto;
+    cursor: url(../images/Gallery/goatlogo4_mini-carre.jpg), auto;
     transform: scale(1.1);
     opacity: 0.5;
     transition-duration: 1s;
@@ -82,9 +83,14 @@ h1 {
     transition-duration: 1s;
 }
 
+.gallery div p:hover {
+    cursor: url(../images/Gallery/goatlogo4_mini-carre.jpg), auto;
+}
+
 /* Mobile */
 @media (max-width: 961px) {
     .gallery {
+        margin-top: -107px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;

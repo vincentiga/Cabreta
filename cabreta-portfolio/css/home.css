@@ -3,11 +3,69 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Dosis|Orbitron&display=swap');
 
+/* CAROUSEL */
+
+section:nth-of-type(1){
+    margin-top: 77px;
+}
+
+div#slider { 
+    width: 100%; 
+    max-width: 1000px;
+    margin: auto;
+  } 
+
+div#slider figure {
+    position: relative; 
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+  }
+
+div#slider figure img { 
+    width: 20%;
+    min-height: 50%; 
+    float: left; 
+  }
+
+div#slider { 
+    width: 80%; 
+    max-width: 1000px;
+    overflow: hidden 
+  }
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 18s slidy infinite;
+  }
+
+/* CITATIONS */
+
 .citations {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 90%;
+    width: 77%;
     margin: auto;
 }
 
@@ -41,7 +99,6 @@ blockquote footer {
 }
 
 blockquote p::before {
-    /*content: '\201C';*/
     font-family:Arial;
     content: "\201C";
     color: #666666;
@@ -61,10 +118,14 @@ blockquote p::after {
 @media (max-width: 961px) {
     .citations {
         align-items: center;
+        width: 100%;
     }
 
     .citation2 {
         align-self: center;
     }
 
+    blockquote {
+        width: 80%;
+    }
 
