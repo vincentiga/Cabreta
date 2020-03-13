@@ -14,7 +14,7 @@ nav a[href="index.html"]{
   }
 
 .grid-images {
-    padding-top: 77px;
+    padding-top: 95px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 10% 10% 1fr 30%;
@@ -26,13 +26,13 @@ nav a[href="index.html"]{
         "image7 image7 image5"
         "image7 image7 image10"
         ;
-    grid-gap : 10px;
-    width: 90%;
     margin: auto;
 }
 
 .grid-images img {
     width: 100%;
+    padding: 5px;
+    height: 100%;
 }
 
 .grid-images div h1 {

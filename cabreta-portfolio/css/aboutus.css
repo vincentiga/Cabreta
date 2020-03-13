@@ -11,7 +11,7 @@ nav a[href="index.html"]{
   }
   
 .about{
-    padding-top: 50px;
+    padding-top: 100px;
     margin-top: 0;
     display: flex;
     justify-content: space-around;
