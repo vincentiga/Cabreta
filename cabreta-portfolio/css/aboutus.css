@@ -1,14 +1,24 @@
 
 /*DESKTOP*/
 
-
-.container{
+nav a[href="about.html"]{
+    background-color: #000;
+    color: #fff;
+}
+nav a[href="index.html"]{
+    background-color: #fff;
+    color: #000;
+  }
+  
+.about{
+    padding-top: 50px;
+    margin-top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;    
     flex-wrap: wrap;
 }
-h2{
+.about h2{
     font-size: 50px;
 }
 .title1{
@@ -50,7 +60,7 @@ h2{
     padding: 40px 20px 20px 20px;
     
 }
-p{
+.about p{
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
     line-height: 50px;
@@ -61,11 +71,12 @@ p{
 
 
 @media (max-width : 730px){
-    .container{
+    .about{
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 100%;
+        padding-top: 0px;
         
     }
     .bloc1{
@@ -86,11 +97,11 @@ p{
         order: 1;
         width: 90%;
     }
-    p{
+    .about p{
         font-size: 25px;
         text-align: center;
     }
-    h2{
+    .about h2{
         
         text-align: center;
     }
