@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Cabretta">
-    <meta name="description" content="Website of a photograph">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/aboutus.css">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
-    <title>Cabretta About</title>
-</head>
-<body>
+<?php include('head.php');?>
+
     <header>
         <img src="images/logo/CabretaLogoBlack1.png" alt="Logo Cabretta">
         <div class="container">
