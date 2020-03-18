@@ -1,18 +1,8 @@
 <?php include('head.php');?>
 
-    <header>
-        <img src="images/logo/CabretaLogoBlack1.png" alt="Logo Cabretta">
-        <div class="container">
-            <nav class="top-menu">
-                <ul class="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<?php include('header.php');?>
+
+
     <!-- ABOUT -->
     <div class="about">   
         <div class="bloc1">
@@ -54,11 +44,5 @@
               <div class="linkedin_logo"><a href="https://www.linkedin.com/in/thomas-paoli-793a624a/?originalSubdomain=fr"><img src="images/logo/linkedin_logo.png" alt="linkedin_logo" /></a></div>
             </figure>  
         </div>
-</footer>
-    </footer>
-    <div class="copyright_background">
-    <p>Webstudio BAGJAV © 2020 All rights reserved</p>
-    </div>
-    </footer>
-</body>
-</html>
+        
+<?php include('footer.php');?>
