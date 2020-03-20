@@ -196,3 +196,39 @@ nav a[href="index.html"]{
     }
     
 }
+
+.box_color{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    padding: 5px;
+}
+
+.box_color a{
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-indent: -9999px;
+    margin: 5px;
+}
+#black{
+    background: rgb(0 0 0);
+}
+#blue{
+    background: rgb(27 0 88);
+}
+#red{
+    background: rgb(100 0 0);
+}
+#purple{
+    background: rgb(73 0 86);
+}
+#gray{
+    background: rgb(165 165 165);
+}
+#yellow{
+    background: rgb(229 201 0);
+}
+#white{
+    background: rgb(255 255 255);
+}
